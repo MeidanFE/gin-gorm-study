@@ -37,9 +37,9 @@ func sayHello(w http.ResponseWriter, r *http.Request) {
 	}
 
 	hobbyList := []string{
-		// "篮球",
-		// "足球",
-		// "双色球",
+		"篮球",
+		"足球",
+		"双色球",
 	}
 
 	t.Execute(w, map[string]interface{}{

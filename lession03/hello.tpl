@@ -40,5 +40,16 @@
     {{else}}
     没啥爱好
     {{ end }}
+
+    <hr />
+    <p>m1</p>
+    {{ with.m1 }}
+    <p>{{.name}}</p>
+    <p>{{.age}}</p>
+    <p>{{.gender}}</p>
+    {{ end }}
+
+    <hr />
+    {{index .hobby 2}}
   </body>
 </html>
