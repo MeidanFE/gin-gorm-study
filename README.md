@@ -10,3 +10,4 @@
 - [x] redirect(lession13)
 - [x] routerGroup(lession14)
 - [x] middleware(lession15)
+- [x] gorm(lession16)
